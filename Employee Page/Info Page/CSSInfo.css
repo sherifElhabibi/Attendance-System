@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', Arial, sans-serif;
+    
+}
+
+.side{
+    background-color: #4801ff;
+}
+
+.clicks > div{
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.clicks > div:hover{
+    margin-left: 10px;
+    color: orange;
+}
+.circle{
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.user,
+.home,
+.new,
+.birth{
+    color: tomato;
+}
+.arrow-left {
+    width: 0; 
+    height: 0; 
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    
+    border-right: 60px solid tomato;
+    left:2%
+  }
+
+.bar{
+   border: 2px solid white;
+   border-top: 0px;
+   border-right: 0px;
+
+}
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+  
+
+
+  

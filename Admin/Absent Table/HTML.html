@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absent Table</title>
+    <link rel="stylesheet" href="CSSAbsent.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="Font Awesome/css/all.min.css">
+    <link rel="stylesheet" href="./dataTables.bootstrap5.min4.css">
+
+
+    <script src="./jquery-3.1.1.js"></script>
+    <script src="./jquery.dataTables.min4.js"></script>
+    <script src="./dataTables.bootstrap5.min4.js"></script>
+    <script src="bootstrap.bundle.js"></script>
+    <script src="./JSAbsent.js"></script>
+</head>
+<body class="d-flex justify-content-center flex-column align-items-center col-12">
+  <div class="nav rounded-3 justify-content-center col-12 p-5">
+    <div class="d-flex col-10 col-md-10 justify-content-between mb-3 p-3 rounded-3 parent">
+      
+        <div class="dropdown-toggle drop" style="font-size: 20px;" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown">
+          <i class="fa-solid fa-gear"></i>
+          Options
+        </div>
+        <ul class="dropdown-menu">
+          <li class="p-2" id="reports"><i class="fa-solid fa-chart-pie"></i> Daily Reports</li>
+          <li class="p-2" id="manage"><i class="fa-solid fa-user-plus"></i> New Employees Management</li>
+          <li class="p-2" id="ban"><i class="fa-sharp fa-solid fa-ban"></i> Violation Table</li>
+          <li class="p-2" id="late"><i class="fa-sharp fa-solid fa-clock"></i> Late Table</li>
+          <li class="p-2" id="absent"><i class="fa-solid fa-bed"></i> Absent Table</li>
+          <li class="p-2" id="excuse"><i class="fa-sharp fa-solid fa-handshake-simple"></i> Excused Table</li>
+        </ul>
+      <i class="fa-sharp fa-solid fa-user-tie text-light col-auto" style="font-size: 20px;"> ADMIN</i>
+    </div>
+  </div>
+
+
+  <div class="table-responsive col-12 col-md-12 p-5">
+    <table class="table table-bordered">
+          <thead class="text-light">
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First Name</th>
+                <th scope="col">Last Name</th>
+                <th scope="col">Address</th>
+                <th scope="col">Age</th>
+                <th scope="col">Email</th>
+                <th scope="col">Arrival Time</th>
+                <th scope="col">Login Date</th>
+              </tr>
+            </thead>
+            <tbody>
+  
+            </tbody>
+    </table>
+  </div>
+
+</body>
+</html>
